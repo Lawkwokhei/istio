@@ -213,11 +213,11 @@ def getForwardHeaders(request):
         # b3 trace headers. Compatible with Zipkin, OpenCensusAgent, and
         # Stackdriver Istio configurations. Commented out since they are
         # propagated by the OpenTracing tracer above.
-        # 'x-b3-traceid',
-        # 'x-b3-spanid',
-        # 'x-b3-parentspanid',
-        # 'x-b3-sampled',
-        # 'x-b3-flags',
+         'x-b3-traceid',
+         'x-b3-spanid',
+         'x-b3-parentspanid',
+         'x-b3-sampled',
+         'x-b3-flags',
 
         # SkyWalking trace headers.
         'sw8',
